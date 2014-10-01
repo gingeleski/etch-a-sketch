@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+
+	<title>Etch-a-Sketch</title>
+	
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<svg width="116px" height="80px" viewBox="0 0 116 80" version="1.1">
+    	<defs></defs>
+    	<g id="etch-a-sketch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        	<g id="logo" stroke="#979797">
+            	<rect id="rectangle-1" fill="#FF0000" x="0" y="0" width="116" height="80"></rect>
+            	<rect id="rectangle-2" fill="#D8D8D8" x="7" y="9" width="101" height="55"></rect>
+            	<circle id="oval-1" fill="#FFFFFF" cx="7" cy="71" r="5"></circle>
+            	<circle id="oval-2" fill="#FFFFFF" cx="104.5" cy="71.5" r="4.5"></circle>
+        	</g>
+    	</g>
+	</svg>
+
+	<h1>Etch-a-Sketch</h1>
+
+	<p>Sketch by moving your mouse over the grid.</p>
+
+	<div id="buttons">
+		<button class="default">Default</button>
+		<button class="randomness">Randomness</button>
+		<button class="gradient">Gradient</button>
+		<button class="trail">Trail</button>
+		<button class="clear">Clear</button>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="application.js"></script>
+
+</body>
