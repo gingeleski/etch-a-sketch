@@ -27,7 +27,6 @@ h1 {
 }
 
 #grid {
-	height: 240px;
 	width: 240px;
 	margin-left: auto;
 	margin-right: auto;
@@ -38,4 +37,6 @@ h1 {
 	width: 20px;
 	background-color: red;
 	display: inline-block;
+	margin-top: -2px;
+	margin-bottom: -2px;
 }
