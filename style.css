@@ -26,17 +26,18 @@ h1 {
 	color: #fd1c27;
 }
 
-#grid {
-	width: 240px;
-	margin-left: auto;
-	margin-right: auto;
+.grid {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
 }
 
-.blocks {
-	height: 20px;
-	width: 20px;
-	display: inline-block;
-	margin-top: -2px;
-	margin-bottom: -2px;
-	background-color: #D8D8D8;
+table {
+  margin: 0 auto;
+}
+
+td {
+  border: 1px solid black;
+  background-color: #d9d9d9;
 }
