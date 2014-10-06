@@ -5,6 +5,7 @@ $(function() {
   randomColor();
   randomColorHover();
   backToGray();
+  trail();
 });
 
 // makes the table for grid
@@ -64,6 +65,7 @@ function randomColorHover() {
   });
 }
 
+//set sketch color back to the default gray
 function backToGray() {
   $(".default").click(function() {
     $("td").hover(function() {
@@ -73,3 +75,16 @@ function backToGray() {
     });
   });
 }
+
+//a white kind of trail will follow the sketch mouse around
+function trail() {
+  $(".trail").click(function() {
+    $("td").hover(function() {
+      $(this).css("opacity", "0");
+    },
+
+    function() {
+      $(this).fadeTo("slow", 1);
+    });
+  });
+};
