@@ -4,6 +4,7 @@ $(function() {
   clear();
   randomColor();
   randomColorHover();
+  backToGray();
 });
 
 // makes the table for grid
@@ -59,6 +60,16 @@ function randomColorHover() {
       $(this).css("background-color", randomColor());
     }, function() {
       $(this).css("background-color", randomColor());
+    });
+  });
+}
+
+function backToGray() {
+  $(".default").click(function() {
+    $("td").hover(function() {
+      $(this).css("background-color", "#a9a9a9");
+    }, function() {
+      $(this).css("background-color", "#a9a9a9");
     });
   });
 }
