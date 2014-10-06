@@ -59,8 +59,10 @@ function randomColorHover() {
   $(".randomness").click(function() {
     $("td").hover(function() {
       $(this).css("background-color", randomColor());
+      $(this).css("opacity", "1");
     }, function() {
       $(this).css("background-color", randomColor());
+      $(this).css("opacity", "1");
     });
   });
 }
@@ -70,8 +72,10 @@ function backToGray() {
   $(".default").click(function() {
     $("td").hover(function() {
       $(this).css("background-color", "#a9a9a9");
+      $(this).css("opacity", "1");
     }, function() {
       $(this).css("background-color", "#a9a9a9");
+      $(this).css("opacity", "1")
     });
   });
 }
