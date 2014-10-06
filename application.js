@@ -6,6 +6,7 @@ $(function() {
   randomColorHover();
   backToGray();
   trail();
+  gradient();
 });
 
 // makes the table for grid
@@ -92,3 +93,14 @@ function trail() {
     });
   });
 };
+
+//when you sketch the blocks gradually change color
+function gradient() {
+  $(".gradient").click(function() {
+    $("td").hover(function() {
+      $(this).css("opacity", $(this).css("opacity") * 0.75);
+    }, function() {
+      $(this).css("opacity", $(this).css("opacity") * 0.75);
+    });
+  });
+}
