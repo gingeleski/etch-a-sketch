@@ -1,7 +1,7 @@
 etch-a-sketch
 =============
 
-Browser app where you sketch via mouse. Tried to add some interesting features so it's not totally lame.
+Browser app where you sketch via mouse.
 
 **Languages:** Javascript, HTML, CSS, Javascript
 
